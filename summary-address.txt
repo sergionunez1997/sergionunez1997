@@ -1,0 +1,14 @@
+Router Eigrp "CCNP"
+address-family ipv4 autonomous-system "x"
+af-infertace eth x/x
+summary-address 192.168.x.x/x
+
+Router Eigrp "CCNP"
+address-family ipv6 autonomous-system "x"
+af-infertace eth x/x
+summary-address 2019:acad:acad:x::/x
+
+show ip route 
+show ip eigro topology all-links 
+
+
